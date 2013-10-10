@@ -1,7 +1,8 @@
 Sample App: Export all products to XML-File 
 ===========================================
 
-Task:
+Task
+----
 
 * Fork this repo.
 * Register app with versacommerce: http://app.versacommerce.de/developer (http://app.versacommerce.de/developer/signup)
@@ -9,25 +10,29 @@ Task:
 * Create an app which exports all products as an XML-File.
 * Get in touch with me.
 
-API Documentation
+
+Toolchain
+---------
+
+API Documentation:
 https://github.com/versacommerce/vc-api
 
-API Ruby GEM
+API Ruby GEM:
 https://github.com/versacommerce/versacommerce_api
 
-Generator Rails App.
+Generator Rails App: 
 https://github.com/versacommerce/versacommerce_app
 
 
-# Create a new rails app
-$ rails new my_versacommerce_app
-$ cd my_versacommerce_app
+## Create a new rails app
+    $ rails new my_versacommerce_app
+    $ cd my_versacommerce_app
 
-# Add the gem versacommerce_app to your Gemfile
-$ echo "gem 'versacommerce_app'" >> Gemfile
-$ bundle install
+## Add the gem versacommerce_app to your Gemfile
+    $ echo "gem 'versacommerce_app'" >> Gemfile
+    $ bundle install
 
-
+## Sample XML-file
 ```xml
 <products>
 <product>
