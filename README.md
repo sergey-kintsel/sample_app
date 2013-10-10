@@ -57,6 +57,7 @@ Mapping:
 --------
 
 | VersaCommerce | XML Objekt |
+| ------------- | ---------- |
 | id | aid |
 | name | title + subtitle |
 | description_html (strip html tags first ) | desc |
